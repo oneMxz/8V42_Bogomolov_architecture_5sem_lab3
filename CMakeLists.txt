@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(lab3_arch VERSION 0.1.0 LANGUAGES CXX)
+add_executable(lab3_arch main.cpp vector_mul.cpp)
+target_compile_options(lab3_arch PRIVATE -O2)
+message(STATUS "Optimization flags: -O2  ")
